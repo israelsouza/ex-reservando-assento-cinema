@@ -4,32 +4,21 @@
         <title>Reservar cadeira do cinema</title>
     </head>
     <link rel="stylesheet" href="estilo.css">
-    <script src="main.js" defer></script>
 <body>
-    
+        
     <div class="box">
         <h1>Reserve seu espaço já</h1>
         <p>Escolha um espaço disponível para reservá-lo</p>
+        
+        <div id="exibirCadeiras"></div>
+        
+        <input type="number" name="" id="numeroCadeira" placeholder="Digite o valor a reservar">
 
-        <div class="fileiraG">
-            <div>
-                <button type="submit" class="assentoG" id="G1"></button>
-                <button type="submit" class="assentoG" id="G2"></button>
-                <button type="submit" class="assentoG" id="G3"></button>
-                <button type="submit" class="assentoG" id="G4"></button>
-                <button type="submit" class="assentoG" id="G5"></button>
-            </div>
-            <div>
-                <button type="submit" class="assentoG" id="G6"></button>
-                <button type="submit" class="assentoG" id="G7"></button>
-                <button type="submit" class="assentoG" id="G8"></button>
-                <button type="submit" class="assentoG" id="G9"></button>
-                <button type="submit" class="assentoG" id="G10"></button>
-            </div>
-        </div>
+        <button type="submit" id="enviar">Enviar</button>
 
         <div class="resposta" id="resultado"></div>
     </div>
-
+    
+    <script src="main.js" defer></script>◘
 </body>
 </html>
